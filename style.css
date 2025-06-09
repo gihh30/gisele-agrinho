@@ -1,4 +1,4 @@
-Estrutura CSS:
+
 /* Estilo geral */
 body {
   font-family: Arial, sans-serif;
@@ -24,7 +24,7 @@ nav {
 }
 
 nav a {
-  color: white;
+  color: rgb(105, 16, 16);
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
