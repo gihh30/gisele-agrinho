@@ -58,15 +58,16 @@
       line-height: 1.6;
     }
 
-    /* Correção: Usar o seletor da classe para a div que contém a imagem */
+    /* Estilos para a div que centraliza a imagem */
     .image-box {
       text-align: center;
       margin-top: 2rem;
     }
 
-    /* Correção: Usar o seletor da imagem dentro da classe */
+    /* Estilos para a própria imagem dentro da div */
     .image-box img {
       max-width: 100%;
+      height: auto; /* Garante que a proporção da imagem seja mantida */
       border-radius: 12px;
       box-shadow: 0 4px 8px rgba(8, 66, 34, 0.1);
     }
@@ -138,7 +139,8 @@
         </li> 
       </ul>
       <div class="image-box">
-        <img src="https://raw.githubusercontent.com/gihh30/gisele-agrinho/blob/main/imagens/Municipio-campo-e-cidade.png" alt="Conexão do Campo e Cidade">
+        <!-- CORREÇÃO CHAVE AQUI: Removido o "/blob/" da URL da imagem -->
+        <img src="https://raw.githubusercontent.com/gihh30/gisele-agrinho/main/imagens/Municipio-campo-e-cidade.png" alt="Conexão do Campo e Cidade">
       </div>
     </section>
 
@@ -150,7 +152,6 @@
 
 </body>
 </html>
-
 
 
 
